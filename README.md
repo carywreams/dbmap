@@ -31,13 +31,3 @@ The selection of gawk was driven by their multi-dimensional array implementation
 + copy resulting ```schema_name.gvData``` file back to local machine
 + run ```dbmap-create.sh schema_name```
 + open ```schema_name.pdf``` with your pdf reader
-
-## TODO
-+ detect and move PRIMARY KEY(s) to the top of the record
-+ add labels to rays, detailing relationship
-+ add dates to PDF output
-+ add schema name to PDF output
-+ add error/failure detection to shell scripts
-+ add niceties to shell scripts, removing file extensions when possible
-+ add option for collecting data with remote connection to server
-
